@@ -1,0 +1,27 @@
+[
+    {
+        "id": "1",
+        "title": "Test Announcment 1",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam diam tellus, accumsan id enim sit amet, interdum vehicula massa. Nam maximus nec eros eget scelerisque. In velit urna, facilisis quis imperdiet sit amet, ornare quis diam. Integer posuere, ante a scelerisque condimentum, sapien orci vestibulum quam, vitae consectetur massa nulla."
+    },
+    
+    {
+        "id": "2",
+        "title": "Test Announcment 2",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam diam tellus, accumsan id enim sit amet, interdum vehicula massa. Nam maximus nec eros eget scelerisque. In velit urna, facilisis quis imperdiet sit amet, ornare quis diam. Integer posuere, ante a scelerisque condimentum, sapien orci vestibulum quam, vitae consectetur massa nulla."
+    },
+    
+    {
+        "id": "3",
+        "title": "Test Announcment 3",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam diam tellus, accumsan id enim sit amet, interdum vehicula massa. Nam maximus nec eros eget scelerisque. In velit urna, facilisis quis imperdiet sit amet, ornare quis diam. Integer posuere, ante a scelerisque condimentum, sapien orci vestibulum quam, vitae consectetur massa nulla."
+    },
+    
+    {
+        "id": "4",
+        "title": "Test Announcment 4",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam diam tellus, accumsan id enim sit amet, interdum vehicula massa. Nam maximus nec eros eget scelerisque. In velit urna, facilisis quis imperdiet sit amet, ornare quis diam. Integer posuere, ante a scelerisque condimentum, sapien orci vestibulum quam, vitae consectetur massa nulla."
+    },
+    
+    
+]
