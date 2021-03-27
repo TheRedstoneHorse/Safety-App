@@ -1,0 +1,50 @@
+[{
+        "id": "1",
+        "name": "Test Checklist 1",
+        "description": "Mark if item is valid",
+        "form": [
+            "Medkit 1",
+            "Extinguisher 2",
+            "Battery Acid Spill Kit 1",
+            "Baking Soda 5"
+        ]
+    },
+
+    {
+        "id": "2",
+        "name": "Test Checklist 2",
+        "description": "Mark if item is valid",
+        "form": [
+            "Medkit 1",
+            "Extinguisher 2",
+            "Battery Acid Spill Kit 1",
+            "Baking Soda 5"
+        ]
+    },
+
+    {
+        "id": "3",
+        "name": "Test Checklist 3",
+        "description": "Mark if item is valid",
+        "form": [
+            "Medkit 1",
+            "Extinguisher 2",
+            "Battery Acid Spill Kit 1",
+            "Baking Soda 5"
+        ]
+    },
+
+    {
+        "id": "4",
+        "name": "Test Checklist 4",
+        "description": "Mark if item is valid",
+        "form": [
+            "Medkit 1",
+            "Extinguisher 2",
+            "Battery Acid Spill Kit 1",
+            "Baking Soda 5"
+        ]
+    }
+
+
+]

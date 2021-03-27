@@ -19,13 +19,13 @@ struct SafetyAppHomeView: View {
                     .bold()
                     .padding(.leading)
                     .padding(.top, 40)
-                    .font(/*@START_MENU_TOKEN@*/.largeTitle/*@END_MENU_TOKEN@*/)
+                    .font(.largeTitle)
                 
                 Spacer()
                 
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
                     Text("Add")
-                        .padding(30.617)
+                        .padding(30)
                 })
             }
             

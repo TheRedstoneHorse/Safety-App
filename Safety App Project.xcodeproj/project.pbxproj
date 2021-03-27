@@ -15,6 +15,11 @@
 		FC77426F25E6DA7C00E8EB8F /* SafetyAppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC77426E25E6DA7C00E8EB8F /* SafetyAppTabView.swift */; };
 		FC77427125E6DA7C00E8EB8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC77427025E6DA7C00E8EB8F /* Assets.xcassets */; };
 		FC77427425E6DA7C00E8EB8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC77427325E6DA7C00E8EB8F /* Preview Assets.xcassets */; };
+		FC87606F260D456E004CF418 /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC87606E260D456E004CF418 /* Checklist.swift */; };
+		FC876072260D4683004CF418 /* ChecklistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC876071260D4683004CF418 /* ChecklistModel.swift */; };
+		FC876075260D474D004CF418 /* SafetyAppChecklistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC876074260D474D004CF418 /* SafetyAppChecklistView.swift */; };
+		FC91AA55260F8A5A0052D6B9 /* SafetyAppFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC91AA54260F8A5A0052D6B9 /* SafetyAppFormView.swift */; };
+		FCF898B6260ACF93009EEF88 /* checklists.json in Resources */ = {isa = PBXBuildFile; fileRef = FCF898B5260ACF93009EEF88 /* checklists.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		FC77427025E6DA7C00E8EB8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC77427325E6DA7C00E8EB8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FC77427525E6DA7C00E8EB8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC87606E260D456E004CF418 /* Checklist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checklist.swift; sourceTree = "<group>"; };
+		FC876071260D4683004CF418 /* ChecklistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistModel.swift; sourceTree = "<group>"; };
+		FC876074260D474D004CF418 /* SafetyAppChecklistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyAppChecklistView.swift; sourceTree = "<group>"; };
+		FC91AA54260F8A5A0052D6B9 /* SafetyAppFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyAppFormView.swift; sourceTree = "<group>"; };
+		FCF898B5260ACF93009EEF88 /* checklists.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = checklists.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +95,8 @@
 			children = (
 				FC77426E25E6DA7C00E8EB8F /* SafetyAppTabView.swift */,
 				FC5AE4DE2604273800987938 /* SafetyAppHomeView.swift */,
+				FC876074260D474D004CF418 /* SafetyAppChecklistView.swift */,
+				FC91AA54260F8A5A0052D6B9 /* SafetyAppFormView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -93,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				FC5AE4E52604295800987938 /* Announcement.swift */,
+				FC87606E260D456E004CF418 /* Checklist.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -101,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				FC5AE4E8260429E600987938 /* AnnouncementModel.swift */,
+				FC876071260D4683004CF418 /* ChecklistModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -109,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				FC5AE4E22604288F00987938 /* announcments.json */,
+				FCF898B5260ACF93009EEF88 /* checklists.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -170,6 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCF898B6260ACF93009EEF88 /* checklists.json in Resources */,
 				FC77427425E6DA7C00E8EB8F /* Preview Assets.xcassets in Resources */,
 				FC5AE4E32604288F00987938 /* announcments.json in Resources */,
 				FC77427125E6DA7C00E8EB8F /* Assets.xcassets in Resources */,
@@ -184,10 +200,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC77426F25E6DA7C00E8EB8F /* SafetyAppTabView.swift in Sources */,
+				FC876075260D474D004CF418 /* SafetyAppChecklistView.swift in Sources */,
 				FC77426D25E6DA7C00E8EB8F /* Safety_App_ProjectApp.swift in Sources */,
+				FC91AA55260F8A5A0052D6B9 /* SafetyAppFormView.swift in Sources */,
+				FC87606F260D456E004CF418 /* Checklist.swift in Sources */,
 				FC5AE4E62604295800987938 /* Announcement.swift in Sources */,
 				FC5AE4DF2604273800987938 /* SafetyAppHomeView.swift in Sources */,
 				FC5AE4E9260429E600987938 /* AnnouncementModel.swift in Sources */,
+				FC876072260D4683004CF418 /* ChecklistModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

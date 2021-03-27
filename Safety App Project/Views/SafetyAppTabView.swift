@@ -17,7 +17,7 @@ struct ContentView: View {
                 }
             }
             
-            Text("Checklists").tabItem {
+            SafetyAppChecklistView().tabItem {
                 VStack {
                     Image(systemName: "checkmark")
                     Text("Checklists")
@@ -37,5 +37,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .preferredColorScheme(.dark)
     }
 }
